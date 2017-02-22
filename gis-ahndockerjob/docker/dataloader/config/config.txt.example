@@ -1,0 +1,4 @@
+[AZURE_BLOB]
+redis_url=gisdata.redis.cache.windows.net
+redis_key=[YOUR REDIS KEY GOES HERE]
+azure_connection_string=DefaultEndpointsProtocol=https;AccountName=gisstoragedata;AccountKey=[LONG COMPLICATED KEY}

@@ -1,0 +1,18 @@
+[JOB]
+shoulddeletecontainer=true
+shoulddeletejob=true
+shoulddeletepool=false
+poolvmsize=standard_d2_v2
+poolvmcount=10
+[AZ_BATCH]
+batchaccountname=gisbatch
+batchaccountkey=[YOUR BATCH ACCOUNT KEY]
+batchserviceurl=https://gisbatch.westeurope.batch.azure.com/
+[AZ_STORAGE]
+storageaccountname=gisstoragedata
+storageaccountkey=[YOUR STORAGE ACCOUNT KEY]
+storageaccountsuffix=core.windows.net
+[DOCKER]
+dockerreguser=chris
+dockerregpassword=[generated docker reg password]
+dockerimage=chris-microsoft.azurecr.io/gis-azureshipyarjob:2.2
